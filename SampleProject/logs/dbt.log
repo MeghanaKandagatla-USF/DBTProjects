@@ -1,0 +1,110 @@
+[0m23:22:48.050306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBBF0AD4F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBC0879190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBBE16D310>]}
+
+
+============================== 23:22:48.050306 | eb7f987a-1226-4ec0-a020-3a9424f88027 ==============================
+[0m23:22:48.050306 [info ] [MainThread]: Running with dbt=1.8.9
+[0m23:22:48.050306 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\megha\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init sample_dbt_project', 'send_anonymous_usage_stats': 'True'}
+[0m23:22:48.069191 [debug] [MainThread]: Starter project path: C:\Users\megha\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m23:22:48.080768 [info ] [MainThread]: 
+Your new dbt project "sample_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:22:48.081773 [info ] [MainThread]: Setting up your profile.
+[0m23:23:40.874337 [info ] [MainThread]: Profile sample_dbt_project written to C:\Users\megha\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:23:40.876710 [debug] [MainThread]: Command `dbt init` succeeded at 23:23:40.876710 after 52.97 seconds
+[0m23:23:40.876710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBBF0AD4F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBC3658680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBC365B2C0>]}
+[0m23:23:40.876710 [debug] [MainThread]: Flushing usage events
+[0m23:35:03.236628 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D6EA2D070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D70E428A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D70793AD0>]}
+
+
+============================== 23:35:03.243496 | 73d3e1e3-f7da-481c-9e15-ac2871257dce ==============================
+[0m23:35:03.243496 [info ] [MainThread]: Running with dbt=1.8.9
+[0m23:35:03.243496 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\megha\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:35:03.256579 [info ] [MainThread]: dbt version: 1.8.9
+[0m23:35:03.257584 [info ] [MainThread]: python version: 3.12.10
+[0m23:35:03.257584 [info ] [MainThread]: python path: C:\Users\megha\AppData\Local\Programs\Python\Python312\python.exe
+[0m23:35:03.257584 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m23:35:03.510078 [info ] [MainThread]: Using profiles dir at C:\Users\megha\.dbt
+[0m23:35:03.510078 [info ] [MainThread]: Using profiles.yml file at C:\Users\megha\.dbt\profiles.yml
+[0m23:35:03.510078 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\megha\Documents\ResearchWork\DBTProjects\SampleProject\dbt_project.yml
+[0m23:35:03.510078 [info ] [MainThread]: adapter type: sqlserver
+[0m23:35:03.510078 [info ] [MainThread]: adapter version: 1.8.7
+[0m23:35:03.510078 [info ] [MainThread]: Configuration:
+[0m23:35:03.514414 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:35:03.515394 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:35:03.515394 [info ] [MainThread]: Required dependencies:
+[0m23:35:03.517402 [debug] [MainThread]: Executing "git --help"
+[0m23:35:03.585300 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:35:03.585300 [debug] [MainThread]: STDERR: "b''"
+[0m23:35:03.585300 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:35:03.585300 [info ] [MainThread]: Connection:
+[0m23:35:03.585300 [info ] [MainThread]:   server: localhost\SQLEXPRESS
+[0m23:35:03.585300 [info ] [MainThread]:   database: dbt_sample
+[0m23:35:03.585300 [info ] [MainThread]:   schema: dbo
+[0m23:35:03.585300 [info ] [MainThread]:   UID: dbt_user1
+[0m23:35:03.585300 [info ] [MainThread]:   client_id: None
+[0m23:35:03.585300 [info ] [MainThread]:   authentication: sql
+[0m23:35:03.585300 [info ] [MainThread]:   encrypt: True
+[0m23:35:03.585300 [info ] [MainThread]:   trust_cert: False
+[0m23:35:03.585300 [info ] [MainThread]:   retries: 3
+[0m23:35:03.585300 [info ] [MainThread]:   login_timeout: 0
+[0m23:35:03.585300 [info ] [MainThread]:   query_timeout: 0
+[0m23:35:03.585300 [info ] [MainThread]:   trace_flag: False
+[0m23:35:03.585300 [info ] [MainThread]:   port: 1433
+[0m23:35:03.585300 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m23:35:03.809450 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m23:35:03.809450 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m23:35:03.809450 [debug] [MainThread]: On debug: select 1 as id
+[0m23:35:03.809450 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:35:03.809450 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQLEXPRESS;Database=dbt_sample;UID={dbt_user1};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m23:35:03.839959 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+3 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019)')
+[0m23:35:04.841763 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQLEXPRESS;Database=dbt_sample;UID={dbt_user1};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m23:35:04.848495 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+2 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019)')
+[0m23:35:05.851909 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQLEXPRESS;Database=dbt_sample;UID={dbt_user1};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m23:35:05.859994 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+1 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019)')
+[0m23:35:06.861475 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost\SQLEXPRESS;Database=dbt_sample;UID={dbt_user1};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m23:35:06.872940 [debug] [MainThread]: fabric adapter: Error running SQL: select 1 as id
+[0m23:35:06.872940 [debug] [MainThread]: fabric adapter: Rolling back transaction.
+[0m23:35:06.872940 [debug] [MainThread]: On debug: No close available on handle
+[0m23:35:06.872940 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:35:06.872940 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:35:06.872940 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\megha\Documents\ResearchWork\DBTProjects\SampleProject\dbt_project.yml> not found
+
+[0m23:35:06.872940 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019)')
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:35:06.872940 [debug] [MainThread]: Command `dbt debug` failed at 23:35:06.872940 after 3.81 seconds
+[0m23:35:06.877523 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:35:06.877523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D70793AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D73002F30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024D7178A150>]}
+[0m23:35:06.877523 [debug] [MainThread]: Flushing usage events

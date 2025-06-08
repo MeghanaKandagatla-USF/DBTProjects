@@ -1,0 +1,43 @@
+[0m01:07:31.833530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13D1C2ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13C37B980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13D1C3680>]}
+
+
+============================== 01:07:31.844233 | fa6ae775-0473-41f3-a596-1aca602b79ac ==============================
+[0m01:07:31.844233 [info ] [MainThread]: Running with dbt=1.9.6
+[0m01:07:31.844233 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\megha\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init churn_dbt', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m01:07:31.897280 [debug] [MainThread]: Starter project path: C:\Users\megha\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m01:07:31.928782 [info ] [MainThread]: 
+Your new dbt project "churn_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:07:31.928782 [info ] [MainThread]: Setting up your profile.
+[0m01:07:34.313956 [debug] [MainThread]: Command `dbt init` succeeded at 01:07:34.313956 after 2.63 seconds
+[0m01:07:34.313956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13A46E480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13C37B980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13CEA3B00>]}
+[0m01:07:34.313956 [debug] [MainThread]: Flushing usage events
+[0m01:07:34.929142 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:20:24.080996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001926CDCD790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001926F7E0860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001926FBCE4B0>]}
+
+
+============================== 01:20:24.099267 | 395aafb7-aa38-4fc3-a073-5acf2da7ccb5 ==============================
+[0m01:20:24.099267 [info ] [MainThread]: Running with dbt=1.9.6
+[0m01:20:24.099267 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\megha\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --select features', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:20:24.099267 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\megha\Documents\ResearchWork\DBTProjects\ML_Project\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:20:24.099267 [debug] [MainThread]: Command `dbt run` failed at 01:20:24.099267 after 0.16 seconds
+[0m01:20:24.099267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001926F431640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001926CDCD790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001926F8770B0>]}
+[0m01:20:24.099267 [debug] [MainThread]: Flushing usage events
+[0m01:20:24.727245 [debug] [MainThread]: An error was encountered while trying to flush usage events

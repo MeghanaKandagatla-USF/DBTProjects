@@ -1,0 +1,102 @@
+[0m00:47:33.545031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018046D07C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018047382810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018047382690>]}
+
+
+============================== 00:47:33.580932 | b39789ca-31ab-4a28-801f-293ee430f16c ==============================
+[0m00:47:33.580932 [info ] [MainThread]: Running with dbt=1.8.9
+[0m00:47:33.584847 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\megha\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init dbt_tutorial', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:47:33.624984 [debug] [MainThread]: Starter project path: C:\Users\megha\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m00:47:33.647223 [info ] [MainThread]: 
+Your new dbt project "dbt_tutorial" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:47:33.647223 [info ] [MainThread]: Setting up your profile.
+[0m00:59:02.755146 [info ] [MainThread]: Profile dbt_tutorial written to C:\Users\megha\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:59:02.757747 [debug] [MainThread]: Command `dbt init` succeeded at 00:59:02.757747 after 689.45 seconds
+[0m00:59:02.757747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018044069310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180491EA480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001804918E7B0>]}
+[0m00:59:02.757747 [debug] [MainThread]: Flushing usage events
+[0m01:00:16.616282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247E50C3E60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247E4E68740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247E6C47620>]}
+
+
+============================== 01:00:16.616282 | 9776efd2-916b-4778-9345-228ebf9b06ce ==============================
+[0m01:00:16.616282 [info ] [MainThread]: Running with dbt=1.8.9
+[0m01:00:16.624403 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\megha\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:00:16.672607 [info ] [MainThread]: dbt version: 1.8.9
+[0m01:00:16.674210 [info ] [MainThread]: python version: 3.12.10
+[0m01:00:16.674210 [info ] [MainThread]: python path: C:\Users\megha\AppData\Local\Programs\Python\Python312\python.exe
+[0m01:00:16.674210 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m01:00:16.984176 [info ] [MainThread]: Using profiles dir at C:\Users\megha\.dbt
+[0m01:00:16.984176 [info ] [MainThread]: Using profiles.yml file at C:\Users\megha\.dbt\profiles.yml
+[0m01:00:16.987270 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\megha\Documents\ResearchWork\DBTProjects\Tutorial\dbt_project.yml
+[0m01:00:16.987270 [info ] [MainThread]: Configuration:
+[0m01:00:16.987270 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m01:00:16.987270 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m01:00:16.987270 [info ] [MainThread]: Required dependencies:
+[0m01:00:16.987270 [debug] [MainThread]: Executing "git --help"
+[0m01:00:17.094234 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m01:00:17.094234 [debug] [MainThread]: STDERR: "b''"
+[0m01:00:17.094234 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m01:00:17.099538 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m01:00:17.099538 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m01:00:17.099538 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_tutorial", target "dev" invalid: 'schema' is a required property
+
+
+[0m01:00:17.099538 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\megha\Documents\ResearchWork\DBTProjects\Tutorial\dbt_project.yml> not found
+
+[0m01:00:17.104386 [debug] [MainThread]: Command `dbt debug` failed at 01:00:17.104386 after 0.69 seconds
+[0m01:00:17.104386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247E773BC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247E942E630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247E77EFA70>]}
+[0m01:00:17.104386 [debug] [MainThread]: Flushing usage events
+[0m01:11:32.296200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE535A9070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE52ABFB00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE52ABC0E0>]}
+
+
+============================== 01:11:32.304553 | b16a489e-c814-43a7-adf0-d4570d54c1ce ==============================
+[0m01:11:32.304553 [info ] [MainThread]: Running with dbt=1.8.9
+[0m01:11:32.304553 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\megha\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:11:32.321621 [info ] [MainThread]: dbt version: 1.8.9
+[0m01:11:32.321621 [info ] [MainThread]: python version: 3.12.10
+[0m01:11:32.321621 [info ] [MainThread]: python path: C:\Users\megha\AppData\Local\Programs\Python\Python312\python.exe
+[0m01:11:32.321621 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m01:11:32.586292 [info ] [MainThread]: Using profiles dir at C:\Users\megha\.dbt
+[0m01:11:32.586292 [info ] [MainThread]: Using profiles.yml file at C:\Users\megha\.dbt\profiles.yml
+[0m01:11:32.586292 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\megha\Documents\ResearchWork\DBTProjects\Tutorial\dbt_project.yml
+[0m01:11:32.586292 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m01:11:32.586292 [debug] [MainThread]: Command `dbt debug` failed at 01:11:32.586292 after 0.44 seconds
+[0m01:11:32.586292 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE52E808F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE54FAA000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE5538A000>]}
+[0m01:11:32.594332 [debug] [MainThread]: Flushing usage events
+[0m01:12:06.863635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E36210F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E36C82BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E36C83140>]}
+
+
+============================== 01:12:06.863635 | d71ca807-3e68-403e-a9bc-4f30e5633114 ==============================
+[0m01:12:06.863635 [info ] [MainThread]: Running with dbt=1.8.9
+[0m01:12:06.863635 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\megha\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:12:06.883908 [info ] [MainThread]: dbt version: 1.8.9
+[0m01:12:06.885966 [info ] [MainThread]: python version: 3.12.10
+[0m01:12:06.885966 [info ] [MainThread]: python path: C:\Users\megha\AppData\Local\Programs\Python\Python312\python.exe
+[0m01:12:06.885966 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m01:12:07.139680 [info ] [MainThread]: Using profiles dir at C:\Users\megha\.dbt
+[0m01:12:07.141433 [info ] [MainThread]: Using profiles.yml file at C:\Users\megha\.dbt\profiles.yml
+[0m01:12:07.141433 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\megha\Documents\ResearchWork\DBTProjects\Tutorial\dbt_project.yml
+[0m01:12:07.143960 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m01:12:07.143960 [debug] [MainThread]: Command `dbt debug` failed at 01:12:07.143960 after 0.45 seconds
+[0m01:12:07.143960 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E36794860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E38F5F260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011E39393FE0>]}
+[0m01:12:07.143960 [debug] [MainThread]: Flushing usage events

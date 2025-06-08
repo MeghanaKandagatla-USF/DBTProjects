@@ -1,0 +1,5 @@
+dbt_user
+dbtpass123
+
+login credentials for sql server authentication
+

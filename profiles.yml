@@ -1,0 +1,76 @@
+dbt_tutorial:
+  outputs:
+    dev:
+      database: hr_analytics
+      driver: ODBC Driver 17 for SQL Server
+      port: 1433
+      schema: dbo
+      server: localhost\SQLEXPRESS
+      threads: 1
+      trust_cert: true
+      type: sqlserver
+      windows_login: true
+  target: dev
+sample_dbt_project:
+  outputs:
+    dev:
+      database: dbt_sample
+      driver: ODBC Driver 17 for SQL Server
+      port: 1433
+      schema: dbo
+      server: localhost\SQLEXPRESS
+      threads: 1
+      trust_cert: true
+      type: sqlserver
+      windows_login: true
+  target: dev
+
+dw_project:
+  staging:
+      +materialized: table
+  outputs:
+    dev:
+      type: duckdb
+      path: dw_project.duckdb
+      threads: 1
+      extensions:
+        - parquet
+        - httpfs
+
+
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+
+  target: dev
+
+
+
+notebook_project:
+  outputs:
+    dev:
+      type: duckdb
+      path: my_duckdb.duckdb
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+
+  target: dev
+
+churn_dbt:
+  outputs:
+    dev:
+      type: duckdb
+      path: mlproject.duckdb
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+
+  target: dev
